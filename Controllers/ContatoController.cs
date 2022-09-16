@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using MVC02.Context;
+using MVC02.Models;
+
 namespace MVC02.Controllers
 {
     public class ContatoController : Controller
@@ -24,7 +26,18 @@ namespace MVC02.Controllers
 
         public IActionResult Criar()
         {
-            return View();
+            return View();       // GET
+        }
+        [HttpPost]
+        public IActionResult Criar(Contato contato)
+        {
+            if(ModelState.IsValid)      // POST
+            {
+                _context.Contatos.Add(contato);
+                _context.SaveChanges();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(contato);
         }
     }
 }
