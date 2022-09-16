@@ -16298,6 +16298,11 @@
   "RootNamespace": "MVC02",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\evand\\Desktop\\Projects\\MVC02\\Views\\Contato\\Criar.cshtml",
+      "TargetPath": "Views\\Contato\\Criar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\evand\\Desktop\\Projects\\MVC02\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"

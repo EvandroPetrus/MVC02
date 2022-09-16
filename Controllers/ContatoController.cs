@@ -21,5 +21,10 @@ namespace MVC02.Controllers
             var contatos = _context.Contatos.ToList();
             return View(contatos);
         }
+
+        public IActionResult Criar()
+        {
+            return View();
+        }
     }
 }
