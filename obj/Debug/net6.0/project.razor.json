@@ -16308,6 +16308,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\evand\\Desktop\\Projects\\MVC02\\Views\\Contato\\index.cshtml",
+      "TargetPath": "Views\\Contato\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\evand\\Desktop\\Projects\\MVC02\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
